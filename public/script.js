@@ -1,3 +1,12 @@
+function openPair(){
+
+document.getElementById("home").style.display="none"
+
+document.getElementById("pair").style.display="block"
+
+}
+
+
 async function generate(){
 
 let number=document.getElementById("number").value
