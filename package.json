@@ -1,0 +1,13 @@
+{
+  "name": "zahid-king-session",
+  "version": "1.0.0",
+  "description": "ZAHID KING WhatsApp Session Generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "express": "^4.18.2"
+  }
+}
