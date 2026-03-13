@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ZAHID KING</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<div id="home" class="center">
 
-<h1 class="logo">ZAHID KING</h1>
-<p class="tag">Multi Session WhatsApp Bot</p>
+<h1>ZAHID KING</h1>
+<p>Multi Session WhatsApp Bot</p>
 
-<button class="main" onclick="openPair()">Get Session</button>
+<button onclick="openPair()" class="btn">
+Get Session
+</button>
 
 </div>
 
 
-<div id="pairBox" class="pair">
+<div id="pair" class="center" style="display:none;">
 
 <h2>Get Pairing Code</h2>
 
@@ -95,19 +97,13 @@
 <option value="237">🇨🇲 +237 Cameroon</option>
 
 </select>
-
 <input id="number" placeholder="Enter phone number">
 
-<button class="main" onclick="generate()">GET CODE</button>
+<button onclick="generate()" class="btn">
+GET CODE
+</button>
 
-<div id="loading">Loading...</div>
-
-<div id="codeBox">
-
-<h3>Pairing Code</h3>
 <p id="code"></p>
-
-</div>
 
 </div>
 
